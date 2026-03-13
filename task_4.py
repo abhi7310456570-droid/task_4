@@ -14,9 +14,11 @@ try:
 
 except FileNotFoundError:
     print("Error: The file 'sample.txt' does not exist.")
-    #.......................
-    #........................
-    #.............................
+    
+
+#.......................
+ #........................
+   #.............................
 
 # Program to write and append data to a file
 
@@ -34,4 +36,5 @@ with open("output.txt", "a") as file:
 # Read and display final content
 with open("output.txt", "r") as file:
     print("\nFinal content of the file:")
+
     print(file.read())
